@@ -23,6 +23,7 @@ object Application extends Controller {
       label => {
         Task.create(label)
         Redirect(routes.Application.tasks)
+
       }
     )
   }
